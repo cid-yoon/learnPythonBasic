@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/anaconda3/envs/joker/bin/python",
+    "python.linting.pylintEnabled": true
+}
