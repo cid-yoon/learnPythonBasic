@@ -55,4 +55,3 @@ pub_date|datetime|NotNull|질문 생성 시간
 |  question       | integer             |   NotNull,  FK(question, id), index          |    Foregin Key            |
 
 
-

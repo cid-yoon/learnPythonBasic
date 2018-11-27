@@ -25,6 +25,7 @@ SECRET_KEY = '#=dsof1_r6&y+l#%b44%ud_1n=h79uaqc6bf71cg8_k+#@(bqk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# 개발 모드 상황에서는 allow hosts가 기본으로 127.0.0.1로.
 ALLOWED_HOSTS = []
 
 
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'polls.apps.PollsConfig',   # 추가
 ]
 
 MIDDLEWARE = [
@@ -103,9 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko-kr'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
